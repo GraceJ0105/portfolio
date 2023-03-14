@@ -3,6 +3,14 @@ h2 {
   text-align: center;
 }
 
+video {
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+main {
+  margin-top: 80px;
+}
+
 .projectButton {
   border: 1px solid red;
   border-radius: 50%;
