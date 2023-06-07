@@ -1,6 +1,8 @@
 h2 {
-  color: red;
-  text-align: center;
+  color: white;
+  text-align: left;
+  background-color: #a4bcd6;
+  padding: 10px;
 }
 
 video {
@@ -27,6 +29,19 @@ main {
   padding: 15px;
 }
 
+.contact-list li {
+  list-style: none;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+  color: cadetblue;
+}
 @media (max-width: 400px) {
   .project-grid {
     grid-template-columns: 1fr;
