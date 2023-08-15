@@ -32,14 +32,13 @@ main {
 
 .card li {
   list-style: none;
-  
 }
 
 .card ul {
-  padding: 0px;;
+  padding: 0px;
 }
 .travel-highlights {
-  margin-top: 100px;
+  margin-top: 88px;
 }
 
 .contact-list li {
@@ -55,12 +54,19 @@ main {
 
 .contact-list a:hover {
   text-decoration: underline;
-  color: #A4BCD7;
+  color: #a4bcd7;
 }
-
+@media (max-width: 900px) {
+  .travel-highlights {
+    margin-top: 52px;
+  }
+}
 
 @media (max-width: 400px) {
   .project-grid {
     grid-template-columns: 1fr;
+  }
+  .travel-highlights {
+    margin-top: 0px;
   }
 }
