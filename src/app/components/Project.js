@@ -5,21 +5,19 @@ export default function Project({
   frameworks = [],
 }) {
   return (
-    <div className="card shadow-lg rounded-lg overflow-hidden bg-white content-center">
-      <video
-        src={videoLink}
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="w-full"
-      />
-      <div className="card-body p-4">
-        <h5
-          className="text-xl font-semibold mb-2 text-center"
-        >
-          {title}
-        </h5>
+    <div className="card shadow-lg rounded-lg overflow-hidden bg-white flex flex-col h-full">
+      <div className="flex-grow flex items-center justify-center w-full">
+        <video
+          src={videoLink}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="max-w-full max-h-full"
+        />
+      </div>
+      <div className="card-body p-4 mt-auto">
+        <h5 className="text-xl font-semibold mb-2 text-center">{title}</h5>
         <ul className="mb-4 text-sm text-gray-700 flex flex-col items-center list-none p-0">
           {frameworks.map((item, index) => (
             <li key={index}>{item}</li>

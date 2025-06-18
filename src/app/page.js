@@ -44,19 +44,25 @@ export default function Home() {
             Hi 👋 I'm Grace.
             <br />
             <br />
-            As a passionate and driven software engineer, I've quickly proven my
-            value within my team by diving into tickets, actively contributing
-            to key projects, and consistently delivering results. I take on
-            challenges with enthusiasm, collaborate effectively with colleagues
-            and thoroughly enjoy the process of problem-solving and continuous
-            learning. I’m eager to take the next step in my development and
-            contribute my skills to more complex projects in a mid-level role.
+            I'm a passionate and curious software engineer who thrives on
+            building user-focused, scalable features — especially with React,
+            JavaScript, and modern web frameworks. Since moving into tech, I’ve
+            quickly made an impact by picking up complex tickets, contributing
+            to high-scale projects (like migrating 9M+ customer records), and
+            refactoring legacy code into modern, maintainable components.
           </p>
           <p className="mb-4 leading-7">
-            In this portfolio, you’ll find projects that reflect my learning
-            journey. I also share "work-in-progress" projects on GitHub. I’m
-            excited to combine my management background with technical skills to
-            join innovative dev teams.
+            I enjoy collaborating across disciplines to deliver seamless user
+            experiences, and I’m confident presenting technical work to both
+            tech and non-tech audiences. My current stack includes React,
+            Next.JS and SQL, with growing experience in Java and backend APIs.
+          </p>
+          <p className="mb-4 leading-7">
+            In this portfolio, you’ll find snapshots of projects that reflect my
+            growth — including personal builds and work-in-progress projects
+            shared on GitHub. I’m excited to keep learning, solve meaningful
+            problems, and bring both my management background and technical
+            skills to dynamic dev teams.
           </p>
           <p className="leading-7">Let’s connect if you have opportunities!</p>
         </section>
@@ -77,7 +83,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Contact */}
         {/* Contact */}
         <section id="contact-section" className="mb-12">
           <h2 className="text-3xl font-bold mb-6">Contact</h2>

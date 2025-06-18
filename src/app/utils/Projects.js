@@ -1,21 +1,34 @@
 const projects = [
   {
+    title: "Biodiversity Net Gain Calculator",
+    videoLink: "/media/biodiversity-net-gain-calculator-demo.mov",
+    externalLink:
+      "https://github.com/GraceJ0105?tab=repositories&q=Java&type=&language=&sort=",
+    frameworks: ["Next.js", "Java", "SQL", "Docker"],
+  },
+  {
+    title: "Run To The Moon",
+    videoLink: "/media/run-to-the-moon-demo.mov",
+    externalLink: "https://github.com/GraceJ0105/group-project-grace-version",
+    frameworks: ["React", "Node.js", "SQL", "API Integration"],
+  },
+  {
     title: "Weather",
     videoLink: "/media/weather-app-demo.mov",
     externalLink: "https://incomparable-cajeta-7f4ee1.netlify.app",
-    frameworks: ["HTML", "CSS", "React", "API Integration"],
+    frameworks: ["React", "API Integration", "HTML", "CSS"],
   },
   {
     title: "Dictionary",
     videoLink: "/media/dictionary-app-demo.mov",
     externalLink: "https://luminous-beijinho-24d76b.netlify.app",
-    frameworks: ["HTML", "CSS", "React", "API Integration"],
+    frameworks: ["React", "API Integration", "HTML", "CSS"],
   },
   {
     title: "World Clock",
     videoLink: "/media/world-clock-app-demo.mov",
     externalLink: "https://illustrious-jelly-99dadf.netlify.app/",
-    frameworks: ["HTML", "CSS", "JavaScript", "API Integration"],
+    frameworks: ["JavaScript", "API Integration", "HTML", "CSS"],
   },
   {
     title: "Travel Highlights",
