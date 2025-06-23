@@ -3,7 +3,7 @@ const projects = [
     title: "Biodiversity Net Gain Calculator",
     videoLink: "/media/biodiversity-net-gain-calculator-demo.mov",
     externalLink:
-      "https://github.com/GraceJ0105?tab=repositories&q=Java&type=&language=&sort=",
+      "https://github.com/GraceJ0105?tab=repositories&q=calculator&type=&language=&sort=",
     frameworks: ["Next.js", "Java", "SQL", "Docker"],
   },
   {

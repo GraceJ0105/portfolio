@@ -41,10 +41,10 @@ export default function Home() {
         <section id="about-section" className="mb-12">
           <h2 className="text-3xl font-bold mb-4">[README]</h2>
           <p className="mb-4 leading-7">
-            Hi 👋 I'm Grace.
+            Hi 👋 I’m Grace.
             <br />
             <br />
-            I'm a passionate and curious software engineer who thrives on
+            I’m a passionate and curious software engineer who thrives on
             building user-focused, scalable features — especially with React,
             JavaScript, and modern web frameworks. Since moving into tech, I’ve
             quickly made an impact by picking up complex tickets, contributing
